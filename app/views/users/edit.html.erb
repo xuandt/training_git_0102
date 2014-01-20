@@ -5,16 +5,16 @@
   <div class="span6 offset3">
     <%= form_for(@user) do |f| %>
       <%= render 'shared/error_messages', object: f.object %>
-      <%= f.label :name %>
+      <p>Tên</p>
       <%= f.text_field :name %>
 
       <%= f.label :email %>
       <%= f.text_field :email %>
 
-      <%= f.label :password %>
+      <p>Mật khẩu</p>
       <%= f.password_field :password %>
 
-      <%= f.label :password_confirmation, "Confirm Password" %>
+      <p>Xác nhận mật khẩu</p>
       <%= f.password_field :password_confirmation %>
 
       <%= f.submit "Thay doi", class: "btn btn-large btn-primary" %>
