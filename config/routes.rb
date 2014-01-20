@@ -1,4 +1,4 @@
-AppTutorial::Application.routes.draw do
+TrainingGit0102::Application.routes.draw do
   resources :users do
     member do
       get :following, :followers
@@ -53,7 +53,7 @@ AppTutorial::Application.routes.draw do
   #       get 'recent', on: :collection
   #     end
   #   end
-  
+
   # Example resource route with concerns:
   #   concern :toggleable do
   #     post 'toggle'
