@@ -1,6 +1,6 @@
 <% provide(:title, "Đăng nhập") %>
 <h1>Đăng nhập</h1>
-<h2>Nội dung văn bản mới đã được thay đổi</h2>
+<h2>New text content has been changed</h2>
 <div class="row">
   <div class="span6 offset3">
     <%= form_for(:session, url: sessions_path) do |f| %>
